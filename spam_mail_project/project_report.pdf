@@ -1,0 +1,44 @@
+Title:
+
+*Spam Mail Detection Using Machine Learning
+
+Objective:
+
+*To build a machine learning model that classifies SMS messages as spam or ham using text-based features.
+
+Dataset:
+
+*SMS Spam Collection Dataset obtained from the UCI Machine Learning Repository.
+It contains 5,574 SMS messages labeled as spam or ham.
+
+Methodology:
+
+1.Load the dataset
+
+2.reprocess text (lowercasing, removing punctuation and stopwords)
+
+3.Convert text into numerical features using TF-IDF
+
+4.Split data into training and testing sets
+
+5.Train a Naive Bayes classifier
+
+6.Evaluate the model using accuracy and F1-score
+
+7.Test the model with new SMS messages
+
+Algorithm Used:
+
+*Multinomial Naive Bayes
+
+Evaluation Metrics:
+
+*Accuracy, Precision, Recall, F1-Score
+
+Result:
+
+*The model achieved approximately 97% accuracy and successfully classified spam and ham messages.
+
+Conclusion:
+
+*The spam detection system efficiently identifies unwanted messages and can be used in real-world applications such as email and SMS filtering.
