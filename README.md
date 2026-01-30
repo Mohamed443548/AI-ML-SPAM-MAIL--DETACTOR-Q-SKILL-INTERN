@@ -1,5 +1,6 @@
 📧 Spam Mail Detector
 📌 Project Description
+Languages used: Python
 
 This project detects whether an SMS message is Spam or Ham (Not Spam) using Machine Learning and NLP techniques.
 
